@@ -1,0 +1,79 @@
+@media screen and (max-width: 992px) {
+  .home_img {
+    margin-top: 100px;
+  }
+
+  .exp_container,
+  .project_container,
+  .footer_container {
+    flex-direction: column;
+  }
+
+  .exp_content,
+  .project_content {
+    width: 100% !important;
+  }
+
+  .service_heading {
+    font-size: 20px;
+  }
+
+  .footer_container {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .contact_form {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contact_img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section02 {
+    height: max-content;
+  }
+}
+
+
+@media screen and (max-width: 577px) {
+  .home_content {
+    text-align: center;
+  }
+
+  .about_content {
+    width: 100%;
+    padding: 0px 0px 0px 20px;
+    margin: 20px auto;
+  }
+
+  .about_img img {
+    width: 100%;
+    height: auto;
+    margin: 11px;
+  }
+
+  .all_heading {
+    font-size: 40px;
+    width: 250px;
+  }
+
+  .btn_1,
+  .btn_2 {
+    width: 95%;
+    margin: 10px auto;
+  }
+
+  .exp_date,
+  .exp_company,
+  .exp_heading,
+  .project_title {
+    text-align: center;
+  }
+}
